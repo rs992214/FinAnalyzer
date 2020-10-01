@@ -177,7 +177,7 @@ public class DataCollector {
 				case 5:
 					item.URL =  children.item(j).getTextContent();
 					break;
-				case 1://description
+				case 1:
 					item.Description = children.item(j).getTextContent();
 					break;
 				case 3://guid
